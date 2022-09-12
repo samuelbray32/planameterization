@@ -7,14 +7,14 @@ Created on Thu Feb 20 09:49:07 2020
 """
 
 import skvideo
-from radialShape import *
+from tools.radialShape import *
 from scipy.interpolate import splprep, splev
 import pickle
 import os 
 from skimage.filters import threshold_otsu, threshold_yen
 import time
 from tqdm import tqdm
-from wormParam import *
+from tools.wormParam import *
 
 def extractAllWorms_ROIfree(vidName,folder,COM_init,roi_size = 500, ang_len=100,
                             LD_thresh=60, size_lim=[2000,2000],binar=False,

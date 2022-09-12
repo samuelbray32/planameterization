@@ -7,7 +7,7 @@ Created on Wed May 22 16:11:44 2019
 """
 
 
-from radialShape import *
+from tools.radialShape import *
 from scipy.interpolate import splprep, splev
 import pickle
 import os 
