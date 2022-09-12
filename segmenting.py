@@ -28,9 +28,9 @@ vidName=args.file
 
 #load needed packages
 import os, sys
-from wormParam import *
-from wormparam_roiFree import extractAllWorms_ROIfree
-from imgCalibration import *
+from tools.wormParam import *
+from tools.wormparam_roiFree import extractAllWorms_ROIfree
+from tools. imgCalibration import *
 import numpy as np
 import skvideo.io
 from skimage.filters import threshold_otsu
