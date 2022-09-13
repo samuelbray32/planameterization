@@ -14,7 +14,7 @@ cd path/to/repository
 python3 -m segmenting ../path/to/video.mp4
 ```
 
-Additional passed variables are available. Please see _segmenting.py_ for details. Once running, the script will produce a pop-up window of the following:
+Additional passed variables are available. Please see [_segmenting.py_](/segmenting.py) for details. Once running, the script will produce a pop-up window of the following:
 
 ![picture](tutorial_imgs/worm_select.png)
 
@@ -36,7 +36,7 @@ Segmentation will now begin. Files are saved to a subfolder in the pickles/ dire
 
 ### Eigen-shape reduction with PCA
 
-Once radial measurements have been segmented, worm data can be loaded into a python script. The standard loading process reducess these high dimensional measurement into "eigen-shapes" using PCA. A reference PCA projection definition is provided in the REFERENCE folder.  to changes this, simply delete the existing reference files and put your segmented data in this folder. The load script will detect this and make a new PCA projection based on these data.
+Once radial measurements have been segmented, worm data can be loaded into a python script. The standard loading process reducess these high dimensional measurement into "eigen-shapes" using PCA. A reference PCA projection definition is provided in the REFERENCE folder.  To changes this, simply delete the existing reference files and put your segmented data in this folder. The load script will detect this and make a new PCA projection based on these data.
 
 For example of data loading, see [*analyzeData.ipynb*](/analyzeData.ipynb)
 
